@@ -1,22 +1,27 @@
 import React from 'react';
 import { Container } from 'react-bootstrap';
-import Stack from 'react-bootstrap/Stack'
+import Stack from 'react-bootstrap/Stack';
 
 function App() {
     return (
         <Container>
             <h1>hello, world</h1>
             <Stack>
-                <div>
-                    Item 1
+                <div className= "border bg-light"> 
+                    Item1
                 </div>
-                <div>
-                    Item 2
+                <div className= "border bg-light"> 
+                    Item2
                 </div>
-                <div>
-                    Item 3
+                <div className= "border bg-light"> 
+                    Item3
                 </div>
             </Stack>
+            <Stack direction="horizontal" gap={3}>
+                 <div className="bg-light border">First item</div>
+                 <div className="bg-light border">Second item</div>
+                 <div className="bg-light border">Third item</div>
+             </Stack>
         </Container>
     );
 }
