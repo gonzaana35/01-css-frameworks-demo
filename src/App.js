@@ -6,7 +6,17 @@ function App() {
     return (
         <Container>
             <h1>hello, world</h1>
-            <stack></stack>
+            <Stack>
+                <div>
+                    Item 1
+                </div>
+                <div>
+                    Item 2
+                </div>
+                <div>
+                    Item 3
+                </div>
+            </Stack>
         </Container>
     );
 }
