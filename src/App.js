@@ -1,6 +1,7 @@
 import React from 'react';
 import { Container } from 'react-bootstrap';
 import Stack from 'react-bootstrap/Stack';
+import './styles.css';
 
 function App() {
     return (
