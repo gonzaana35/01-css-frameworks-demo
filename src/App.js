@@ -6,7 +6,7 @@ function App() {
     return (
         <Container>
             <h1>hello, world</h1>
-            <Stack>
+            <Stack className="pb-3">
                 <div className= "border bg-light"> 
                     Item1
                 </div>
@@ -17,7 +17,7 @@ function App() {
                     Item3
                 </div>
             </Stack>
-            <Stack direction="horizontal" gap={3}>
+            <Stack direction="horizontal" className= "ms-2" gap={3}>
                  <div className="bg-light border">First item</div>
                  <div className="bg-light border">Second item</div>
                  <div className="bg-light border">Third item</div>
