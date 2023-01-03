@@ -7,10 +7,10 @@ function App() {
         <Container>
             <h1>hello, world</h1>
             <Stack className="pb-3">
-                <div className= "border bg-light"> 
+                <div className= "purple-border border border-primary bg-light"> 
                     Item1
                 </div>
-                <div className= "border bg-light"> 
+                <div className= "border border-danger bg-light"> 
                     Item2
                 </div>
                 <div className= "border bg-light"> 
